@@ -4,8 +4,6 @@
 #include <string.h>
 #include <math.h>
 
-
-
 void generate_processing_times(int num_jobs, int num_machines, int processing_times[num_jobs][num_machines], int job_types[num_jobs], int setup_times[num_machines]) {
     for (int i = 0; i < num_jobs; i++) {
         for (int j = 0; j < num_machines; j++) {
