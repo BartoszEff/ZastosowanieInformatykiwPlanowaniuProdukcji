@@ -1,0 +1,1 @@
+liczba_maszyn
